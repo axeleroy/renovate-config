@@ -8,7 +8,7 @@
   ],
   "ignorePresets": ["security:minimumReleaseAgeNpm"],
   "dependencyDashboard": true,
-  "rangeStrategy": "bump",
+  "rangeStrategy": "pin",
   "minimumReleaseAge": "7 days",
   "lockFileMaintenance": {
     "automerge": true
