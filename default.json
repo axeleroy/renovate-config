@@ -6,6 +6,7 @@
     ":automergeDigest",
     ":labels(dependencies)"
   ],
+  "ignorePresets": ["security:minimumReleaseAgeNpm"],
   "dependencyDashboard": true,
   "rangeStrategy": "bump",
   "minimumReleaseAge": "7 days",
