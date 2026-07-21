@@ -6,7 +6,9 @@
     ":automergeDigest",
     ":labels(dependencies)"
   ],
-  "ignorePresets": ["security:minimumReleaseAgeNpm"],
+  "ignorePresets": [
+    "security:minimumReleaseAgeNpm"
+  ],
   "dependencyDashboard": true,
   "rangeStrategy": "pin",
   "minimumReleaseAge": "7 days",
@@ -18,5 +20,17 @@
   },
   "internalChecksAsSuccess": true,
   "internalChecksFilter": "strict",
-  "prCreation": "not-pending"
+  "prCreation": "not-pending",
+  "packageRules": [
+    {
+      "description": "Ensure any digest-pinned, GitHub-sourced, dependencies creates a link to the diff between the two commits",
+      "matchSourceUrls": [
+        "https://github.com/**/*"
+      ],
+      "matchUpdateTypes": [
+        "digest"
+      ],
+      "changelogUrl": "{{sourceUrl}}/compare/{{currentDigest}}..{{newDigest}}"
+    }
+  ]
 }
