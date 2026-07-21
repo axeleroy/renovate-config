@@ -18,6 +18,9 @@
   "pin": {
     "automerge": true
   },
+  "statusCheckWhen": {
+    "artifactError": "always"
+  },
   "internalChecksAsSuccess": true,
   "internalChecksFilter": "strict",
   "prCreation": "not-pending",
