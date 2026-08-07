@@ -6,7 +6,8 @@
     ":automergeDigest",
     ":labels(dependencies)",
     "group:pnpm",
-    "group:nodeJs"
+    "group:nodeJs",
+    "group:eslintMonorepo"
   ],
   "ignorePresets": [
     "security:minimumReleaseAgeNpm"

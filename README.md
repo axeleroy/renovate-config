@@ -16,6 +16,7 @@ A shared Renovate preset for most of my projects.
     * dependencies pin
 * Pin versions for production dependencies
 * Provides changelog for [GitHub Actions digest updates](https://www.jvt.me/posts/2025/05/08/renovate-digest-changelog/)
+* Groups pnpm, Node.js and eslint updates.
 
 ## Required repository configuration
 
