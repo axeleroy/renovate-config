@@ -4,7 +4,9 @@
     "config:best-practices",
     ":automergeStableNonMajor",
     ":automergeDigest",
-    ":labels(dependencies)"
+    ":labels(dependencies)",
+    "group:pnpm",
+    "group:nodeJs"
   ],
   "ignorePresets": [
     "security:minimumReleaseAgeNpm"
