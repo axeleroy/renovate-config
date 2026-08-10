@@ -38,6 +38,30 @@
         "digest"
       ],
       "changelogUrl": "{{sourceUrl}}/compare/{{currentDigest}}..{{newDigest}}"
+    },
+    {
+      "description": "Group Node.js updates across managers",
+      "commitMessageTopic": "Node.js",
+      "matchManagers": [
+        "dockerfile",
+        "docker-compose",
+        "mise"
+      ],
+      "matchPackageNames": [
+        "/node/"
+      ]
+    },
+    {
+      "description": "Group pnpm updates across managers",
+      "commitMessageTopic": "pnpm",
+      "matchManagers": [
+        "dockerfile",
+        "docker-compose",
+        "mise"
+      ],
+      "matchPackageNames": [
+        "/pnpm/"
+      ]
     }
   ]
 }
