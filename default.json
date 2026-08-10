@@ -50,18 +50,6 @@
       "matchPackageNames": [
         "/node/"
       ]
-    },
-    {
-      "description": "Group pnpm updates across managers",
-      "commitMessageTopic": "pnpm",
-      "matchManagers": [
-        "dockerfile",
-        "docker-compose",
-        "mise"
-      ],
-      "matchPackageNames": [
-        "/pnpm/"
-      ]
     }
   ]
 }
