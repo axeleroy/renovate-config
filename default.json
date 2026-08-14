@@ -50,6 +50,10 @@
       "matchPackageNames": [
         "/node/"
       ]
+    },
+    {
+      "matchUpdateTypes": ["digest", "pinDigest", "lockFileMaintenance"],
+      "minimumReleaseAgeBehaviour": "timestamp-optional"
     }
   ]
 }
