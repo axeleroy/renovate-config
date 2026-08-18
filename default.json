@@ -58,8 +58,11 @@
     {
       "description": "Disable updates for forgejo forks of @actions/artifacts",
       "matchPackageNames": [
-        "https://data.forgejo.org/forgejo/download-artifact",
+        "https://data.forgejo.org/forgejo/upload-artifact",
         "https://data.forgejo.org/forgejo/download-artifact"
+      ],
+      "matchManagers": [
+        "ci"
       ],
       "enabled": false
     }
